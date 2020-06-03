@@ -18,7 +18,7 @@ const createDebugger = ({ resolveCyclic }: Configuration = defaultConfig) => (
   if (currentConnection == null) {
     addPlugin({
       getId() {
-        return 'flipper-plugin-redux-debugger';
+        return 'flipper-plugin-redux-debugger-stonelinks';
       },
       onConnect(connection: any) {
         currentConnection = connection;

@@ -1,6 +1,6 @@
 {
-  "name": "redux-flipper",
-  "version": "1.2.0",
+  "name": "@stonelinks/redux-flipper",
+  "version": "1.2.3",
   "description": "Redux middleware for flipper",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
